@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia&display=swap');
+
+:root{
+    --background-color: #ec9fce; 
+}
+
+*{
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 1000px;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    position: fixed;
+    background-color: var(--background-color);
+    padding: 0 300px;
+    z-index: 1000;
+    box-shadow: 8px 10px 10px rgba(0, 0, 0, .1);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    width: 100px;
+}
+
+.nav-box a{
+    color: black;
+    padding: 10px ;
+}
+
+.nav-box a:hover{
+    color: white;
+}
+.icon{
+    width: 30px; 
+    height: 30px;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+h1{
+    font-family: "Sofia";
+    font-size: 35px;
+    color: #473741;
+    margin-top: 0;
+}
+
+.categories{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.category{
+    position: relative;
+    width: 200px;
+    margin: 15px;
+    background-color: #f7f0eb;
+    border-radius: 5px;
+}
+
+.category img{
+    width: 100%;
+    transition-duration: 0.3s;
+}
+
+.category:hover img{
+    transform: scale(1.1);
+}
+
+.category a{
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 16px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    width: 90%;
+    text-align: center;
+    text-decoration: none;
+}
+
+.category a:hover{
+    background-color: black;
+}
+

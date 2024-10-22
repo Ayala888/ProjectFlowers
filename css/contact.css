@@ -1,0 +1,97 @@
+:root{
+    --background-color: #ec9fce; 
+}
+
+*{
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: #f7f0eb;
+}
+
+header{
+    position: fixed;
+    background-color: var(--background-color);
+    padding: 0 300px;
+    z-index: 1000;
+    box-shadow: 8px 10px 10px rgba(0, 0, 0, .1);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    width: 100px;
+}
+
+.nav-box a{
+    color: black;
+    padding: 10px 22px;
+}
+
+.nav-box a:hover{
+    color: white;
+}
+.icon{
+    width: 30px; 
+    height: 30px;
+}
+
+.container1 {
+    padding: 150px;
+    display: flex; 
+}
+
+.contact-form {
+    padding: 30px;
+    width: 40%;
+}
+
+.contact-form h2 {
+    color: black;
+    margin-bottom: 20px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.contact-form input {
+    height: 40px;
+}
+
+.contact-form textarea {
+    height: 100px;
+}
+
+.contact-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.contact-info{
+    padding: 80px 130px;
+}
+
+h3{
+    font-size: 25px;
+}
+
+p{
+    font-size: 20px;
+}
+
